@@ -18,7 +18,7 @@
         android:id="@+id/editTextName" />
  
     <TextView
-        android:id="@+id/textViewAddress"
+        android:id="@+id/textViewcno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contact Number" />
@@ -36,8 +36,9 @@
         android:id="@+id/btnAdd" />
  
     <Button
+        android:id="@+id/btnView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="View Peoples"
-        android:id="@+id/btnView" />
+        android:text="View Contacts" />
+
 </LinearLayout>
